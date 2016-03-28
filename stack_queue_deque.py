@@ -120,7 +120,7 @@ d.remove_element_front()
 d.return_peek()
 
 '''
-output
+output for above run
 runfile('C:/Users/PinupolS/Desktop/py_code/stack.py', wdir='C:/Users/PinupolS/Desktop/py_code')
 Stack
 len is 0
