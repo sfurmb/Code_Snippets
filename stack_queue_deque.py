@@ -119,5 +119,30 @@ d.return_peek()
 d.remove_element_front()
 d.return_peek()
 
+'''
+output
+runfile('C:/Users/PinupolS/Desktop/py_code/stack.py', wdir='C:/Users/PinupolS/Desktop/py_code')
+Stack
+len is 0
+len is 3
+[10, 11, 12]
+len is 3
+[10, 11]
+len is 2
+
+Queue
+len is 0
+len is 3
+['c', 'b', 'a']
+['c', 'b']
+
+Deque
+len is 0
+[4, 1, 2, 3]
+len is 4
+[4, 1, 2]
+[1, 2]
+'''
+
      
      
