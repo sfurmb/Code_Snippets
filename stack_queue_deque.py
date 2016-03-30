@@ -1,18 +1,9 @@
 class Stack(object):
-    """A customer of ABC Bank with a checking account. Customers have the
-    following properties:
-
-    Attributes:
-        name: A string representing the customer's name.
-        balance: A float tracking the current balance of the customer's account.
-    """
 
     def __init__(self):
-        """Return a Customer object whose name is *name*.""" 
         self.name = []
 
     def insert_element(self, element):
-        """Set the customer's starting balance."""
         self.name.append(element)
         
     def remove_element(self):
@@ -25,20 +16,11 @@ class Stack(object):
         print self.name
         
 class Queue(object):
-    """A customer of ABC Bank with a checking account. Customers have the
-    following properties:
-
-    Attributes:
-        name: A string representing the customer's name.
-        balance: A float tracking the current balance of the customer's account.
-    """
 
     def __init__(self):
-        """Return a Customer object whose name is *name*.""" 
         self.name = []
 
     def insert_element(self, element):
-        """Set the customer's starting balance."""
         self.name.insert(0, element)
         
     def remove_element(self):
@@ -51,24 +33,14 @@ class Queue(object):
         print self.name        
 
 class Deque(object):
-    """A customer of ABC Bank with a checking account. Customers have the
-    following properties:
-
-    Attributes:
-        name: A string representing the customer's name.
-        balance: A float tracking the current balance of the customer's account.
-    """
 
     def __init__(self):
-        """Return a Customer object whose name is *name*.""" 
         self.name = []
 
     def insert_element_front(self, element):
-        """Set the customer's starting balance."""
         self.name.insert(0, element)
 
     def insert_element_back(self, element):
-        """Set the customer's starting balance."""
         self.name.append(element)
         
     def remove_element_back(self):
